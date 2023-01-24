@@ -1,0 +1,190 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right, #991d5d, #f2445e,#f07951, #dec87a);
+}
+
+main {
+    width: 100%;
+    height: 85.5vh;
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+
+    text-align: center;
+    color: #ddd;
+
+    opacity: 70%;
+
+    cursor: default;
+
+    transition: 0.3s;
+}
+
+header:hover{
+    opacity: 100%;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login {
+    opacity: 90%;
+
+    background-color: #471754;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+
+    width: 300px;
+    height: 400px;
+
+    border-radius: 10px;
+
+    box-shadow: 4px 6px 8px #111;
+}
+
+.login label {
+    margin-top: 20px;
+    color: #ddd;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.login input {
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    
+    font-family: 'Fire mono', monospace;
+    font-weight: 300;
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+a #esqsenha {
+    margin: 0;
+    color: #eee;
+    font-family: 'Raleway', monospace;
+    font-size: 15px;
+    opacity: 80%;
+
+    transition: 0.5s;
+}
+
+a #esqsenha:hover {
+    opacity: 100%;
+}
+
+a #criconta{
+    color: #eee;
+    font-family: 'Raleway', monospace;
+    opacity: 50%;
+
+    transition: 0.5s;
+
+    font-size: 17px;
+}
+
+a #criconta:hover {
+    opacity: 100%;
+}
+
+button {
+    border: 0;
+    border-radius: 8px;
+    padding: 14px;
+
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 800;
+
+    background-color: #991d5d;
+    color: #ddd;
+
+    transition: 0.6s;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #111;
+}
+
+button:hover {
+    color: #991d5d;
+    background-color: #ddd;
+
+    box-shadow: 0px 0px 3px #eee;
+}
+
+#resultadologin {
+    color: #de4c45;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    margin-top: 2px;
+
+    font-size: 12px;
+
+    opacity: 0%;
+    cursor: default;
+}
+
+#resultadoregister {
+    color: #de4c45;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    margin-top: 2px;
+
+    font-size: 12px;
+
+    opacity: 0%;
+    cursor: default;
+}
+
+.afterlogin h1 {
+    color: #ddd;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.afterlogin p {
+    color: #ddd;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.afterlogin span {
+    color: #ddd;
+    font-family: 'Inter';
+}
+
+footer p{
+    opacity: 60%;
+    color: #ddd;
+    font-family: 'Inter', monospace;
+    font-size: 15px;
+
+    text-align: center;
+}
+
+footer span{
+    color: #ddd;
+    font-family: 'Inter', monospace;
+    font-size: 15px;
+
+    text-align: center;
+}
+

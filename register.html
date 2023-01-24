@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono:wght@300&family=Inter:wght@300&family=Poppins:ital@1&family=Raleway:wght@300&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body id="everyoneregister">
+    <header>
+        <h1>Tela de Cadastro</p>
+    </header>
+    <main class="container">
+        <form class="login">
+            <div>
+                <label>Nome</label><br>
+                <input type="text" placeholder="Seu nome" id="nome"><br><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="Seu email" id="email"><br><br>
+                <label>Senha</label><br>
+                <input type="password" placeholder="Crie uma senha" id="senha">
+                
+            </div>
+            <p id="resultadoregister">.</p>
+            <button id="reg" type="button">Cadastrar</button><br>  
+            <a href="index.html"><p id="esqsenha">Possuo uma conta</p></a><br><br>
+            <script src="./js/index.js"></script>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Login Screen, Cauê Guise Mondek, <span id="ano"></span></p>
+    </footer>
+    
+    <script>
+        const year = document.querySelector('#ano');
+        ano.innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>

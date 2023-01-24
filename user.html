@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuário</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono:wght@300&family=Inter:wght@300&family=Poppins:ital@1&family=Raleway:wght@300&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Tela de Usuário</p>
+    </header>
+    <main class="container">
+        <form class="login">
+            <div class="afterlogin">
+                <h1>BEM VINDO !</h1>
+                <p>Saldo: <span id="random"></span> reais</p>
+                
+            </div>
+
+            <script src="./js/index.js"></script>
+
+    </main>
+    <footer>
+        <p>&copy; Login Screen, Cauê Guise Mondek, <span id="ano"></span></p>
+    </footer>
+    
+    <script>
+        const year = document.querySelector('#ano');
+        ano.innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>

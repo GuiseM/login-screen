@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono:wght@300&family=Inter:wght@300&family=Poppins:ital@1&family=Raleway:wght@300&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body id="everyonelogin">
+    <header>
+        <h1>Tela de Login</p>
+    </header>
+    <main class="container">
+        <form class="login">
+            <div>
+                <label>Usuário</label><br>
+                <input type="text" placeholder="Seu nome ou email" id="nome"><br><br>
+                <label>Senha</label><br>
+                <input type="password" placeholder="Sua senha" id="senha">
+                
+            </div>
+            <p id="resultadologin">.</p>
+            <button id="login" type="button">Entrar</button><br> 
+            <a href="./register.html"><p id="criconta">Não possui conta? Criar conta</p></a>
+            <a href="./register.html"><p id="esqsenha">Esqueci minha senha</p></a><br><br>
+            <script src="./js/index.js"></script>
+        </form>
+        
+    </main>
+    <footer>
+        <p>&copy; Login Screen, Cauê Guise Mondek, <span id="ano"></span></p>
+    </footer>
+    
+    <script>
+        const year = document.querySelector('#ano');
+        ano.innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>
